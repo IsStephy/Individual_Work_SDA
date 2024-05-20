@@ -1,0 +1,75 @@
+<!-- templates/register.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register User</title>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+            margin: 0 80px ;
+        }
+
+        .button:hover {background-color: #3e8e41}
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .output-container {
+            background-color: #f59f9f; 
+            border: 1px solid #a18989; 
+            border-radius: 8px; 
+            padding: 10px; 
+            margin: 20px 0; 
+            white-space: pre-wrap;
+            word-wrap: break-word; 
+            max-width: 17%; 
+            overflow: auto;
+        }
+        body {
+            background-color: #9af0fc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Register New User</h1>
+    <form method="POST" action="/register">
+        <input type="text" name="name" placeholder="Name" required><br>
+        <input type="text" name="surname" placeholder="Surname" required><br>
+        <input type="date" name="date_of_birth" required><br>
+        <select name="post">
+            {% for post in posts %}
+            <option value="{{ post }}">{{ post }}</option>
+            {% endfor %}
+        </select><br>
+        <select name="stare">
+            {% for num in range(5) %}
+            <option value="{{ num }}">{{ num }}</option>
+            {% endfor %}
+        </select><br>
+        <input type="number" name="before" placeholder="Years worked before 1999" min="0" required><br>
+        <input type="number" name="after" placeholder="Years worked after 1999" min="0" required><br>
+            <legend>Payments</legend>
+            {% for year in range(1999, 2024) %}
+            <label for="payment_{{ year }}">Year {{ year }}:</label>
+            <input type="text" id="payment_{{ year }}" name="payment_{{ year }}" placeholder="Payment amount"><br>
+            {% endfor %}
+        <button type="submit" class = "button">Register</button>
+    </form>
+</body>
+</html>

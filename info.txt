@@ -1,0 +1,107 @@
+Name: Ion
+Surname: Jereghi
+Date_of_Birth: 05.09.1963
+Code: 00001
+Post: Mediu
+Stare: 0
+Before: 10
+After: 21
+Payments:
+Year 1999: 730.09
+Year 2000: 726.93
+Year 2001: 736.24
+Year 2002: 750.39
+Year 2003: 748.94
+Year 2004: 1505.28
+Year 2005: 1506.50
+Year 2006: 2253.86
+Year 2007: 3015.38
+Year 2008: 3809.44
+Year 2009: 4694.35
+Year 2010: 4789.44
+Year 2011: 4875.32
+Year 2012: 4859.82
+Year 2013: 4961.48
+Year 2014: 5010.52
+Year 2015: 5016.02
+Year 2016: 5074.05
+Year 2017: 5074.52
+Year 2018: 5036.56
+Year 2019: 5018.35
+
+Name: Alexandru
+Surname: Ciubanu
+Date_of_Birth: 03.02.1960
+Code: 00002
+Post: Sef
+Stare: 0
+Before: 11
+After: 21
+Payments: 
+Year 1999: 2920.35
+Year 2000: 2907.71
+Year 2001: 2944.95
+Year 2002: 3001.57
+Year 2003: 2995.75
+Year 2004: 6021.12
+Year 2005: 6026.01
+Year 2006: 9015.43
+Year 2007: 12061.53
+Year 2008: 15237.77
+Year 2009: 18777.38
+Year 2010: 19157.76
+Year 2011: 19501.27
+Year 2012: 19439.28
+Year 2013: 19845.91
+Year 2014: 20012.47
+Year 2015: 20064.10
+Year 2016: 20296.20
+Year 2017: 20298.10
+Year 2018: 20146.25
+Year 2019: 20073.38
+
+Name: Nicolae
+Surname: Istrati
+Date_of_Birth: 21.02.1950
+Code: 00004
+Post: Sef
+Stare: 0
+Before: 12
+After: 22
+Payments:
+Year 1999: 950.00
+Year 2000: 1100.00
+Year 2001: 1200.00
+Year 2002: 1200.00
+Year 2003: 1300.00
+Year 2004: 1500.00
+Year 2005: 2000.00
+Year 2006: 2200.00
+Year 2007: 2700.00
+Year 2008: 3000.00
+Year 2009: 3400.00
+Year 2010: 4000.00
+Year 2011: 5000.00
+Year 2012: 5500.00
+Year 2013: 6000.00
+Year 2014: 6500.00
+Year 2015: 7000.00
+Year 2016: 8000.00
+Year 2017: 8000.00
+Year 2018: 8600.00
+Year 2019: 9000.00
+Year 2020: 17000.00
+Year 2021: 20000.00
+Year 2022: 23000.00
+Year 2023: 25000.00
+
+Name: Stefan
+Surname: Istrati
+Date_of_Birth: 10.04.2004 
+Code: 00003
+Post: Necalificat
+Stare: 3
+Before: 0
+After: 1
+Payments:
+Year 2023: 11520.00
